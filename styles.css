@@ -1,15 +1,5 @@
 /* Estilos generales para la página */
-body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    background-color: #f0f0f0;
-    padding: 50px;
-    margin: 0;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 
 /* Efecto de aparición gradual */
 h1 {
@@ -35,5 +25,6 @@ p {
         opacity: 1;
     }
 }
+
 
 

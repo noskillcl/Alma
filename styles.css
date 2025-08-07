@@ -1,1 +1,39 @@
+/* Estilos generales para la página */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 50px;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Efecto de aparición gradual */
+h1 {
+    color: #ff4d4d;
+    font-size: 3em;
+    opacity: 0;
+    animation: fadeIn 2s ease-out 1s forwards;
+}
+
+p {
+    font-size: 1.5em;
+    color: #333;
+    opacity: 0;
+    animation: fadeIn 2s ease-out 2s forwards;
+}
+
+/* Animación de fade-in */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
 
